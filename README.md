@@ -19,6 +19,10 @@ So make sure you don't delete it.
 
 ![](https://raw.githubusercontent.com/Ynng/MoodleNoForceDownload/master/install.png)
 
+## Use
+The extension has my school's moodle url hard-coded.
+Change the URL on [this line](https://github.com/Ynng/MoodleNoForceDownload/blob/master/background.js#L6) to ones your school is using.
+
 ## License
 Copyright 2021-2021, Kevin Huang.
 
