@@ -1,0 +1,24 @@
+{
+  "background": {
+      "scripts": [
+          "background.js"
+      ],
+      "persistent": true
+  },
+  "author": "Kevin Huang",
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "description": "Stops moodle from forcing you to download pdfs. View pdf in browser instead.",
+  "manifest_version": 2,
+  "name": "View Moodle PDF",
+  "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "*://*/*"
+  ],
+  "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+  },
+  "version": "2021.02.07"
+}
